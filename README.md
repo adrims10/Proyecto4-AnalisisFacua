@@ -60,7 +60,7 @@ Hemos creado un entorno llamado Webscraping para el siguiente proyecto.
         Se ha importado la libreria re
         Se ha importado la libreria sys
         Se ha importado la libreria os
-        Se ha importado la libreria  dotenv 
+
 
 
 # 📝Webs:
@@ -71,6 +71,14 @@ Hemos creado un entorno llamado Webscraping para el siguiente proyecto.
 
 
 **Resultados , Conclusiones**
+
+-Observamos que el producto mas ofertado es la leche en la suma de todos los supermercados.
+-Al observar supermercado por supermercado vemos que la tendencia es la misma observando que el aceite de girasol es el que menos oferta tiene.
+-Con respecto a precios medios en el historico de eroski seria mas conveniente ir  con respecot al aceite de girasol a comprar pos su precio sin contar format
+-Con respecto a precios maximos de aceite de girasol en el historico de carrefour seria el supermercado menos indicado para comprar pero tambien hay que tener en cuenta los packs de producos.
+-El precio max del aceite de girasol con respecto a los max seria recomendable el carrefour.
+-El precio max del aceite de girasol con respecto a los max seria recomendable el carrefour.
+
 
 
 
