@@ -1,4 +1,5 @@
 # Proyecto4-AnalisisFacua
+![Portada](https://github.com/user-attachments/assets/e31e77fb-da6a-47c6-8bda-b41ec96d72e6)
 
 Bienvenidos! 
 
