@@ -38,12 +38,11 @@ def conexion(nombre):
 
 def crear_tablas(conexion, cursor):
     
-    cursor.execute('''
-    CREATE TABLE IF NOT EXISTS Supermercados (
-        id_supermercado INT PRIMARY KEY,
-        nombre VARCHAR(255)
-    );
-    ''')
+    cursor.execute("""create table if not exists Supermercados (
+                            id_supermercado int primary key,
+                            nombre varchar(100) not null
+                            );""")
+    
     cursor.execute('''
     CREATE TABLE IF NOT EXISTS Productos (
         id_producto SERIAL PRIMARY KEY,
@@ -52,7 +51,7 @@ def crear_tablas(conexion, cursor):
         producto VARCHAR(255),
         marca VARCHAR(255),
         Volumen VARCHAR(255),
-        FOREIGN KEY (id_supermercado) REFERENCES Supermercados(id_supermercado)
+        FOREIGN KEY (id_supermercado) REFERENCES Supermercados(id_supermercado) 
     );
     ''')
     cursor.execute('''
