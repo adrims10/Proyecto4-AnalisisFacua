@@ -44,12 +44,10 @@ Hemos creado un entorno llamado Webscraping para el siguiente proyecto.
       
 ## 🛠️ Instalación y Requisitos
         Este proyecto usa Python 3.12.6.
-        Se ha importado la libreria random.
         Se ha importado la libreria BeautifulSoup
         Se ha importado la libreria requests
         Se ha importado la libreria  pandas 
         Se ha importado la libreria numpy 
-        Se ha importado la libreri sleep
         Se ha importado la libreria webdriver  
         Se ha importado la libreria ChromeDriverManager 
         Se ha importado la libreria Keys  
@@ -65,29 +63,55 @@ Hemos creado un entorno llamado Webscraping para el siguiente proyecto.
 
 # 📝Webs:
 
-    Facua
+    Facua: https://super.facua.org/
  
  
-
-
 **Resultados , Conclusiones**
 
--Observamos que el producto mas ofertado es la leche en la suma de todos los supermercados.
+En primer lugar tenemos 6 supermercados los cuales analizamos tres categorias de productos obteniendo un total de 135.869 datos.
+
+-Observamos que el producto mas ofertado es el aceite de oliva  en la suma de todos los supermercados. En este caso Aceite de oliva marca carbonel suave es el maximo producto ofertado.
+
 -Al observar supermercado por supermercado vemos que la tendencia es la misma observando que el aceite de girasol es el que menos oferta tiene.
--Con respecto a precios medios en el historico de eroski seria mas conveniente ir  con respecot al aceite de girasol a comprar pos su precio sin contar format
--Con respecto a precios maximos de aceite de girasol en el historico de carrefour seria el supermercado menos indicado para comprar pero tambien hay que tener en cuenta los packs de producos.
--El precio max del aceite de girasol con respecto a los max seria recomendable el carrefour.
--El precio max del aceite de girasol con respecto a los max seria recomendable el carrefour.
+
+En el historico se puede ver que la leche es el profucto que predomina en los 6 supermercados por delante del aceite de oliva. Individalemte vemos que hay supermercados como puede ser hipercor que no sigue este patron y su oferta historica es predominante el aceite de oliva
+
+-Con respecto a precios medios en el historico:   Eroski seria el supermercado  mas conveniente en aceite de girasol.
+                                                  hipercor seria el supermercado  mas conveniente en leche.
+                                                  Dia seria el supermercado  mas conveniente en aceite de oliva.
+
+-Con respecto a precios Maximos en el historico:   Carrefour seria el supermercado  mas destacado en aceite de girasol.
+                                                   Carrefour  seria el supermercado  mas destacado en leche.
+                                                   Hipercor seria el supermercado  mas destacado con casi el doble que los otrosd de precio maximo  en aceite                                                      de oliva.
 
 
+-Con respecto a precios Minimos en el historico:   Alcampo seria el supermercado  mas destacado en aceite de girasol.
+                                                   Alcampo  seria el supermercado  mas destacado en leche.
+                                                   Carrefour  seria el supermercado  mas destacado en aceite de oliva.
+
+
+- Con respecto a las evoluciones de los precios en el historico observamos que en igual medida los precios suben y bajam de manera constante, exventuando el cado de carrefour que tiene picos de subida bastante altos.
+
+-Algo que puede parece sorprendente es la caida de los precios minimos en Alcampo,que tiene picos de bajada en estos muy fuertes, esto puede ser debido a las promociones todo a 1 euro las cuales se estan implementando cada vez mas en estos supermercados.
+
+Anomalias: 
+
+Como hemos dicho antes las anomalias mas claras las tiene Carrefour que el dia 01/09 subio el precio de la leche en un 96% el 02/08 la bajo un 49% y el 08/08 la volvio a subir un 228 %.
+
+Con respecto al aceite de girasol las anomalias mas claras las encontramos en alcampo y carrefour el el que el porcentaje maximo de subida es un 34% en caso de carrefour el dia 02/08 y la bajada mas pronunciada es de un 25% en carrefour el dia 01/09.
+
+Con respecto a las anomalias de del aceite de oliva, son mas constante se juega mas con el precio de este alimento, con subidas y bajadas bruscas a lo largo del historico, deberiamos observar el grafico y la tabla.
 
 
 - **Próximos Pasos**
 
- 📈
+ 📈 Al scrapear totalmente todo lo que es la pagina web proporcionada, la recoleccion de datos tardo unos 31 minuto por lo que claramente es necesario incluir paralelizacion y asincronia lo que nos permitira reducir proximas recolecciones.
 
-. 🏍️
-. 🌟
+Por otra añadiremos funciones soporte para las viasualizacion de las graficas, no estando estas directamente en el Notebook.
+
+Para finalizar los proximos, pensamos en limpiar los datos de la marca-volumen para poder hacer un analisis mas en profundidad por formato de produco, puesto que esta columna ya estaba incluida en nuestro analisis pero aun no ha sido posible limpiarla.
+ 
+🏍️ 🌟
 
 
  
